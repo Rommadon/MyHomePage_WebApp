@@ -79,9 +79,38 @@ li a:hover:not(.active) {
 
 
 
-.parallax {
+.parallax1 {
     /* The image used */
-    background-image: url('bg_1.jpg');
+    background-image: url('wall1.jpg');
+    /* background-size: 100% 50%; */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('wall2.jpg');
+    /* background-size: 100% 50%; */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url('wall3.jpg');
     /* background-size: 100% 50%; */
 
     /* Full height */
@@ -108,6 +137,13 @@ li a:hover:not(.active) {
 
 }
 
+.contact{
+    height: 100%;
+    background-color:whitesmoke ;
+    font-size:36px;
+
+}
+
 
 
 
@@ -115,6 +151,13 @@ li a:hover:not(.active) {
 .column-30 {
     float: left;
     width: 30%;
+    height:100%;
+  
+    /* Should be removed. Only for demonstration */
+}
+.column-25 {
+    float: left;
+    width: 25%;
     height:100%;
   
     /* Should be removed. Only for demonstration */
@@ -133,7 +176,29 @@ li a:hover:not(.active) {
   
     /* Should be removed. Only for demonstration */
 }
+.column-45 {
+    float: left;
+    width: 45%;
+    height:100%;
+  
+    /* Should be removed. Only for demonstration */
+}
 
+.column-20 {
+    float: left;
+    width: 20%;
+    height:100%;
+  
+    /* Should be removed. Only for demonstration */
+}
+
+.column-30r {
+    float: right;
+    width: 25%;
+    height:100%;
+  
+    /* Should be removed. Only for demonstration */
+}
 /* Clear floats after the columns */
 .row:after {
     content: "";
